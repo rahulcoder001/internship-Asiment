@@ -19,3 +19,16 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.slider-container {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  height: calc(100vh - 56px); /* Adjusted height after first two divs */
+}
+
+.slider {
+  display: flex;
+  transition: transform 1s ease-in-out;
+}
+
